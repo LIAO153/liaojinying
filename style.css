@@ -1,17 +1,26 @@
-@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100'
-html, body
-  font-family 'Roboto Mono', monospace
-  background #FFFFFF
-  height 100%
-.container
-  height 100%
-  width 100%
-  justify-content center
-  align-items center
-  display flex
-.text
-  font-weight 100
-  font-size 28px
-  color #000000
-.dud
-  color #E4E3E5h
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+
+html, body {
+  font-family: 'Roboto Mono', monospace;
+  background: #FFFFFF;
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.text {
+  font-weight: 100;
+  font-size: 80px;
+  color: #000000;
+  text-align: center; /* Add this line */
+}
+
+.dud {
+  color: #E4E3E5;
+}
