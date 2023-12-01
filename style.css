@@ -2,7 +2,7 @@
 
 html, body {
   font-family: 'Roboto Mono', monospace;
-  background: #FFFFFF;
+  background: #000000;
   height: 100%;
 }
 
@@ -17,10 +17,10 @@ html, body {
 .text {
   font-weight: 100;
   font-size: 80px;
-  color: #000000;
+  color: #ffffff;
   text-align: center; /* Add this line */
 }
 
 .dud {
-  color: #E4E3E5;
+  color: #aeaeae;
 }
