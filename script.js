@@ -5,7 +5,7 @@
 class TextScramble {
   constructor(el) {
     this.el = el
-    this.chars = '!<>-_\\/[]{}—=+*^?#________'
+    this.chars = '!<>-_\\/[]{}—=+*^%&#________'
     this.update = this.update.bind(this)
   }
   setText(newText) {
@@ -61,13 +61,8 @@ class TextScramble {
 // ——————————————————————————————————————————————————
 
 const phrases = [
-  'Neo,',
-  'sooner or later',
-  'you\'re going to realize',
-  'just as I did',
-  'that there\'s a difference',
-  'between knowing the path',
-  'and walking the path'
+  'Hello,World.',
+  '你好，世界。'
 ]
 
 const el = document.querySelector('.text')
