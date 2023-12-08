@@ -62,7 +62,8 @@ class TextScramble {
 
 const phrases = [
   'Hello,World.',
-  '你好，世界。'
+  '你好，世界。',
+  'Liao Jin Ying'
 ]
 
 const el = document.querySelector('.text')
